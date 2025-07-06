@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="permission_bg">#BBFFE082</color>
+    <color name="permission_border">#BBFFB74D</color>
+    <color name="permission_btn_bg">#BBEA8635</color>
+    <color name="panel_bg">#AA292929</color>
+</resources>

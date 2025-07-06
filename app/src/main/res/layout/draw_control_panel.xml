@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/draw_control_bg"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="16dp">
+
+    <com.ollie.niubility.ui.Icon
+        android:id="@+id/close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/touchable_bg"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="@string/icon_close"
+        android:textSize="16sp" />
+
+    <com.ollie.niubility.ui.Icon
+        android:id="@+id/retract"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/touchable_bg"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="@string/icon_retract"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="6dp"
+            android:layout_marginVertical="12dp"
+            android:alpha="0.05"
+            android:background="@android:color/black" />
+
+        <com.ollie.niubility.ui.Icon
+            android:id="@+id/undo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/touchable_bg"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/icon_undo"
+            android:textSize="16sp" />
+
+        <com.ollie.niubility.ui.Icon
+            android:id="@+id/redo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/touchable_bg"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/icon_redo"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="6dp"
+            android:layout_marginVertical="12dp"
+            android:alpha="0.05"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:id="@+id/brush_list"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</LinearLayout>

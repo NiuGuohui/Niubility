@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Niubility全局批注</string>
+    <string name="app_name_short">全局批注</string>
+    <string name="permission_float_window">未开启悬浮窗权限</string>
+    <string name="permission_auth">授权</string>
+
+    <string name="icon_close">&#xe650;</string>
+    <string name="icon_retract">&#xe771;</string>
+    <string name="icon_ball_pen">&#xe682;</string>
+    <string name="icon_eraser">&#xec94;</string>
+    <string name="icon_clean">&#xe6a4;</string>
+    <string name="icon_undo">&#xe600;</string>
+    <string name="icon_redo">&#xe601;</string>
+</resources>
